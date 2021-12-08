@@ -245,29 +245,84 @@ void Вставками() {
 	}
 	_getch();
 }
-void Слияние(int* first, int* second, int NF, int NS, int k, int* result, int NR)
+void slienie(int* first, int NF, int* second, int NS, int k, int* result, int NR)
 {
-	int p, q;
-	int c;
+	int p, q, cout;
 	first[NF] = abs(first[NF - 1]);
-	if (NF > 0)
+	if (NS > 0)
 	{
 		first[NF] += abs(second[NS - 1]);
 	}
 	second[NS] = first[NF];
 	p = 0;
 	q = 0;
-	c = 0;
-	while (c < (NF + NS))
+	cout = 0;
+	while (cout < (NF + NS))
 	{
 		if (first[p] < second[q])
 		{
-			result[k + c] = first[p++];
+			result[k + cout] = first[p++];
 		}
 		else
 		{
-			result[k + c] = second[q++];
+			result[k + cout] = second[q++];
 		}
-		c++;
+		cout++;
 	}
+}
+void sort_slienie(int* A, int N)
+{
+	int* first, * second;
+	int NF, NS;
+	int d, k, i;
+	first = (int*)calloc(N, sizeof(int));
+	second = (int*)calloc(((N / 2) + 1), sizeof(int));
+	d = 1;
+	while (d < N)
+	{
+		k = 0;
+		while ((k + d) < N)
+		{
+			NF = 0;
+			for (i = 0; i < d && ((k + i) < N); i++)
+			{
+				first[NF++] = A[k + i];
+			}
+			NS = 0;
+			for (i = 0; i < d && ((k + d + i) < N); i++)
+			{
+				second[NS++] = A[k + d + i];
+			}
+			slienie(first, NF, second, NS, k, A, N);
+			k = k + 2 * d;
+		}
+		d = 2 * d;
+	}
+}
+void Слияние()
+{
+	int* a;
+	int n;
+
+
+	setlocale(LC_ALL, "Rus");
+	printf("Введите количество элементов: ");
+	scanf("%d", &n);
+
+	a = (int*)calloc(n, sizeof(int));
+
+	printf("Введите числа:\n");
+	for (int i = 0; i < n; i++)
+	{
+		scanf("%d", &a[i]);
+	}
+
+	sort_slienie(a, n);
+
+	printf("Упорядочные числа:");
+	for (int i = 0; i < n; i++)
+	{
+		printf(" %d", a[i]);
+	}
+	_getch();
 }

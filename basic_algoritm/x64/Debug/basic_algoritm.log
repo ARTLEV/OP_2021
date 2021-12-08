@@ -1,47 +1,58 @@
-﻿  Sorts.c
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\Sorts.c(52,8): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+﻿  AllAlg.c
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(34,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(178,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(184,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(195,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(208,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(216,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(226,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(259,8): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(260,10): warning C4098: alg1: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(288,10): warning C4098: alg2: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(293,14): warning C4013: SetConsoleCP: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(294,20): warning C4013: SetConsoleOutputCP: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(310,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(310,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(310,11): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(310,11): message : этот аргумент используется в качестве размера буфера
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(318,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(318,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(318,10): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(318,10): message : этот аргумент используется в качестве размера буфера
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(328,10): warning C4098: alg3: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(311,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(354,21): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(365,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(373,10): warning C4098: alg4: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(399,21): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(410,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(418,10): warning C4098: alg5: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(439,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(439,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(439,11): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(439,11): message : этот аргумент используется в качестве размера буфера
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(452,10): warning C4098: alg6: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(440,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(475,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(475,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(475,11): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(475,11): message : этот аргумент используется в качестве размера буфера
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(488,10): warning C4098: alg7: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(476,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(513,11): warning C4477: "scanf_s": в строке форматирования "%s" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "int *"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(513,11): message : этот аргумент используется в качестве размера буфера
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(513,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(513,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 3, но было предоставлено 2
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(513,11): message : отсутствующий вариативный аргумент "3" требуется для строки форматирования "%d"
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(526,10): warning C4098: alg8: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(514,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(550,10): warning C4098: alg9: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(540,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(575,10): warning C4098: alg10: функция типа "void", возвращающая значение
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\AllAlg.c(565,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Sorts.c
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\Sorts.c(52,8): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
   basic_algoritm.c
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(36,15): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(71,10): warning C4098: alg1: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(99,10): warning C4098: alg2: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(121,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(121,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(121,11): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(121,11): message : этот аргумент используется в качестве размера буфера
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(129,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(129,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(129,10): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(129,10): message : этот аргумент используется в качестве размера буфера
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(139,10): warning C4098: alg3: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(122,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(165,21): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(176,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(184,10): warning C4098: alg4: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(210,21): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(221,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(229,10): warning C4098: alg5: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(250,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(250,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(250,11): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(250,11): message : этот аргумент используется в качестве размера буфера
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(263,10): warning C4098: alg6: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(251,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(286,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(286,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(286,11): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(286,11): message : этот аргумент используется в качестве размера буфера
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(299,10): warning C4098: alg7: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(287,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(324,11): warning C4477: "scanf_s": в строке форматирования "%s" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "int *"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(324,11): message : этот аргумент используется в качестве размера буфера
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(324,11): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(324,11): message : заполнители и их параметры ожидают переменное число аргументов в количестве 3, но было предоставлено 2
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(324,11): message : отсутствующий вариативный аргумент "3" требуется для строки форматирования "%d"
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(337,10): warning C4098: alg8: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(325,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(361,10): warning C4098: alg9: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(351,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(386,10): warning C4098: alg10: функция типа "void", возвращающая значение
-C:\Users\arteo\source\repos\basic_algoritm\basic_algoritm\basic_algoritm.c(376,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\arteo\Desktop\OP_2021\basic_algoritm\basic_algoritm.c(36,15): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
   Создание кода...
-  basic_algoritm.vcxproj -> C:\Users\arteo\source\repos\basic_algoritm\x64\Debug\basic_algoritm.exe
+  basic_algoritm.vcxproj -> C:\Users\arteo\Desktop\OP_2021\x64\Debug\basic_algoritm.exe
